@@ -11,8 +11,10 @@ function main() {
       nodeIntegration: true,
       contextIsolation: false,
     },
-    width: 800,
-    height: 600,
+    width: 520,
+    height: 650,
+    autoHideMenuBar: true,
+    frame: false
   })
 
   // load app/index.html as the window content
